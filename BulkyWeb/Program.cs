@@ -1,7 +1,5 @@
-using BulkyWeb.Data;
+using Bulky.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);   
     // Other services...
